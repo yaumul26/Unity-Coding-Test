@@ -1,0 +1,5 @@
+pertama : karena menggunakan material yg sama dalam membuat plane maka kita bisa centang (enable GPU Instancing) pada semua material yg dipakai agar ketika itu objek dengan material yg sama
+dia akan tetap membaca 1 batch
+
+kedua : saya menggunakan bool pada update ini memungkinkan tidak membutuhkan banyak memory atau tidak dibaca terus menerus karena ketika selesai maka bool tersebut tiggal di beri kondisi agar
+tidak membaca terus menerus
