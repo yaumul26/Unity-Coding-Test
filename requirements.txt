@@ -1,0 +1,15 @@
+Requirements:
+
+1. Make main camera follows the AI Character.
+
+2. Make AI find all rewards using AstarPathFinding to move to the target.
+
+3. Whenever AI hits a reward, increase score by 1, and show score using UIController.SetScore (must make use of singleton and/or observer pattern).
+
+4. Show a simple explosion particle whenever AI hits a reward.
+
+4. When all rewards are gone, display win text using UIController.DisplayWinText.
+
+5. Optimize code, explain why the optimized code is better than original, write this as clear as possible in a separate file (documentation is important, and we will see how you write one based on this).
+
+6. Make AstarPathFinding.GetPath runs on another thread.
