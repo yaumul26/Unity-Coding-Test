@@ -3,3 +3,5 @@ he will still read 1 batch
 
 second: I use bool in this update, so it doesn't require a lot of memory or is not read continuously because when it's finished, the bool is only given a condition so that
 not reading continuously
+
+proccesing time to complete project is 30 minutes.
