@@ -1,3 +1,5 @@
+Unity Coding Test : proccesing time to complete project is 30 minutes.
+
 first: because it uses the same material in making the plane, we can check (enable GPU Instancing) on ​​all the materials used so that at that time the object with the same material
 he will still read 1 batch
 
